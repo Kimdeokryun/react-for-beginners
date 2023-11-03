@@ -7,6 +7,7 @@ src
  ┃ ┗ Movie.module.css
  ┣ routes
  ┃ ┣ Detail.js
+ ┃ ┣ Detail.module.css
  ┃ ┣ Home.js
  ┃ ┗ Home.module.css
  ┣ TempFiles
