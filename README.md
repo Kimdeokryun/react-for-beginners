@@ -125,40 +125,26 @@ App.js 는 router로 작용
 
 ### react router
 
-<Router>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/movie/:id" element={<Detail />} />
-    </Routes>
-  </Router>;
+Route path="/" element={<Home />} 
+Route path="/movie/:id" element={<Detail />}
 
-other component
+Link to other component  
+not refresh &href
 <Link to="/movie">
-
 
 ### react 웹 어플리케이션 배포
 1. npm install gh-pages
 2. npm run build
 3. package.json 수정
 
-  추가
+  맨 밑에 추가
   "homepage": "https://Kimdeokryun.github.io/react-for-beginners"
 
   변경
-    "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
-  }
+  scripts 부분에     "deploy": "gh-pages -d build" "predeploy": "npm run build" 추가.
 
 4. npm run deploy
 
 ### issue 배포 이후 빈 화면이 나오는 증상
 
-  <Router basename={process.env.PUBLIC_URL}> 을 추가
-
-  </Router>;
-
+  Router basename={process.env.PUBLIC_URL} 을 추가
