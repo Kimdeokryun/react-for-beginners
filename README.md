@@ -1,6 +1,6 @@
 # React-for-beginners
 
-url: https://kimdeokryun.github.io/react-for-beginners/
+https://kimdeokryun.github.io/react-for-beginners/
 
 ```
 src
