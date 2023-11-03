@@ -153,3 +153,10 @@ other component
   }
 
 4. npm run deploy
+
+### issue 배포 이후 빈 화면이 나오는 증상
+
+  <Router basename={process.env.PUBLIC_URL}> 을 추가
+
+  </Router>;
+
