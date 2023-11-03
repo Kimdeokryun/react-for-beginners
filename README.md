@@ -1,6 +1,7 @@
 # React-for-beginners
 
-```src
+```
+src
  ┣ components
  ┃ ┣ Movie.js
  ┃ ┗ Movie.module.css
