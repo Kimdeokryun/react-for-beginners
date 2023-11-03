@@ -1,18 +1,31 @@
 ### react classname for module.css
 
 src
+
  ┣ components
+
  ┃ ┗ Movie.js
+
  ┣ routes
+
  ┃ ┣ Detail.js
+
  ┃ ┗ Home.js
+
  ┣ TempFiles
+
  ┃ ┣ #6.js
+
  ┃ ┗ #7 To Do.js
+
  ┣ App.js
+
  ┣ App.module.css
+
  ┣ Button.js
+
  ┣ Button.module.css
+ 
  ┗ index.js
 
 
